@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body section{
+    background-color: #091650;
+    /* margin-top: 15px; */
+    
+}
+.navbar{
+    background-color:  #091650;
+    box-shadow: none;
+}
+.container .navbar-brand{
+    color: #fff;
+    font-size:25px;
+    font-weight: bold;
+}
+.navbar-toggler{
+    color: #fff;
+}
+.navbar-collapse{
+    margin-right: 5px;
+}
+.nav-link{
+    padding: 3px 15px;
+    color: #fff;
+    margin-top: 14px;
+    font-size: 20px;
+    margin-right:20px ;
+}
+
+.nav-link:hover{
+    color:#0ad3ef ;
+}
+.contact-btn{
+    color: #fff;
+    background-color: #0ad3ef;
+    border-radius: 25px;
+    padding:12px 20px ;
+    margin-left: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    width: 145px;
+}
+.contact-btn:hover{
+    border: 1px solid #0ad3ef;
+    cursor: pointer;
+    background-color: #091650;
+    color: #fff;
+}

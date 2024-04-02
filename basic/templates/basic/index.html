@@ -1,0 +1,101 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block content %}
+
+<!-- header  -->
+<section class="banner pb-3">
+    <div class="container">
+        <div class="row pb-2">
+            <div class="col-md-6 ban-left">
+                <div class="banner-heading">
+                    <h1>Cyber-Security is much more than IT</h1>
+                </div>
+                <div class="banner-content">
+                    <p>We protect what you have worked hard for! <br> We provide security in communication!</p>
+                </div>
+                <div class="banner-button">
+                    <a href="/about" class="about-btn">About</a>
+                    <a href="/contact" class="contact-bttn">Contact Us</a>
+                </div>
+
+            </div>
+            <div class="col-md-6 ban-right">
+                <div class="banner-image mt-3">
+                    <img src="{% static 'img/illustration1.png' %}" alt="">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <hr>
+</section>
+
+<!-- services  -->
+<div class="container">
+    <h5 class="service py-5 ">Our Services</h5>
+    <div class="row pb-5">
+        <div class="col-md-4 mb-2">
+          <div class="card service-card">
+            <div class="card-body">
+              <h5 class="card-title">IT Services</h5>
+                <p class="card-text">	
+                    <ul>
+                        <li>IT Services</li>
+                        <li> Consulting / Services</li>
+                        <li>IT consulting & on-site service</li>
+                        <li>Security analysis</li>
+                    </ul>   
+                </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-2">
+          <div class="card service-card">
+            <div class="card-body">
+              <h5 class="card-title">IT Security</h5>
+                <p class="card-text">
+                    <ul>
+                        <li>Firewall systems</li>
+                        <li>Spam protection / virus protection</li>
+                        <li>Managed Security Services</li>
+                        <li>Weak point analysis</li>
+                    </ul>
+                </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-2">
+            <div class="card service-card">
+              <div class="card-body">
+                <h5 class="card-title">eSecurity Check</h5>
+                <p class="card-text">
+                    <ul>
+                        <li>Consistent IT concept</li>
+                        <li>Calculable costs</li>
+                        <li>Security and Availability</li>
+                        <li>Technological expertise</li>
+                    </ul>
+                </p>
+              </div>
+            </div>
+        </div>  
+    </div>
+    <!-- button  -->
+    <div class="button-container mb-4">
+        <a href="/services" class="bottnn">View More</a>
+    </div>
+
+    
+</div>
+
+
+<!-- maps  -->
+<div class="container mt-5 text-center fw-bold " id="map">
+    <div>
+      CyberOptics GmbH, Griesstraße 6, 4600 Wels, Upper Austria, AUSTRIA
+    </div>
+    Visit CyberOptics GmbH on  <a href="https://goo.gl/maps/FkfBac9M4tSsaeTJ9">Google Maps</a>
+</div>
+
+{% endblock %}

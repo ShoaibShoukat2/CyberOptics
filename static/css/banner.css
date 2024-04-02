@@ -1,0 +1,82 @@
+.banner .ban-left {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    margin-top: 80px;
+}
+
+.banner-heading h1 {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 50px;
+    padding-right: 85px;
+    line-height: 75px;
+    letter-spacing: 2px;
+    
+}
+.banner-content p{
+    color: #c1cbf3;
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 34px;
+    margin-bottom: 35px;
+}
+.banner-button .about-btn{
+    color: #fff;
+    background-color: #0ad3ef;
+    border-radius: 25px;
+    padding:15px 30px ;
+    margin-right: 12px;
+    font-size: 16px;
+    text-align: center;
+}
+.about-btn:hover{
+    border: 1px solid #0ad3ef;
+    background-color: #091650;
+    color: #fff;
+}
+
+.contact-bttn{
+    background-color: #2152a1;
+    color: #fff;
+    margin-left: 12px;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.contact-bttn:hover{
+
+    background-color: #091650;
+    border: 1px solid #1a2c7c;
+    color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    .banner .ban-left{
+        text-align: center;
+        margin: 70px auto;
+    }
+    .banner .banner-heading h1{
+      font-size: 45px;
+      line-height: 55px;
+      margin-left: 53px;
+    }
+  }
+
+/* .....................................image....................................... */
+
+.banner .ban-right {
+    margin-top: 60px;
+}
+
+
+.banner .banner-image img {
+    width: 100%;
+    margin:auto;
+       
+}
+
+      

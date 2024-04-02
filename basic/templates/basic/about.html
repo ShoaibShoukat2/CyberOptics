@@ -1,0 +1,39 @@
+{% extends 'base.html'%} {% load static %} {% block content %}
+
+<section>
+  <div class="container">
+    <div class="about-header">
+      <h5 class="mb-4">About Us</h5>
+      <p>
+        {% comment %} CyberOptics is the sole owner and copyright holder of the information and documents presented on the CyberOptics website(s). {% endcomment %}
+      </p> 
+    </div>
+  </div>
+</section>
+
+<div class="container mt-5">
+    <div class="card shadow-0">
+      <div class="container text-center mt-4">
+        <div class="row">
+          <a href="">
+              <img class="centered-image" src="{% static 'img/team.jpg' %}" alt="Reference image" style="">
+          </a>
+        </div>
+      </div>
+        {% comment %} <small class="small mt-2">WHAT WE DO</small> {% endcomment %}
+        <h5 class="card-tilte mt-5">Our Philosophy</h5>
+        <p class="card-content">
+          We always focus on supporting your business process. Together with you we work out the requirements, the goals and the necessary steps. For the implementation of the projects, we fall back on methods from IT, Knowledge management, systemic consulting and our many years of experience in the implementation of a wide variety of solutions in a wide variety of industries. The use of existing resources combined with new knowledge and technologies deliver synergies for your benefit. The harmonious integration into the existing environment is a essential part of our work. The central alignment of all activities on the business strategy concentrates al foreces and generates long-term added value and additional income. "We provide security in communication!"
+        </p>
+        <h5 class="card-tilte mt-4">Our Approach</h5>
+        <p class="card-content">
+          When identifying the most recent digital risks to a brand, we use both manual and automated methods.Before making any sort of public disclosure, we first notify the brands after determining the extent of the breach. Any harm to a brand's reputation is always ensured, and we always work to prevent it. But as a responsible organization, we feel obliged to share information and data with the public because protecting individual privacy is essential. In some instances, when brands fail to take the necessary precautions, we are forced to make a public disclosure.
+        </p>
+        <h5 class="card-tilte mt-4">Client Confidentiality</h5>
+        <p class="card-content">
+          The client confidentiality we maintain is well known to clients who work with us. We are motivated by this value to increase our clients' trust in us. Integrite is continuously improved to increase security. All of our staff members, partners, and directors are obligated by a contract to keep client information confidential. Our clients' information is secure and never used for fundraising, promotions, demos, or other purposes. 
+        </p>
+  </div>
+</div>
+
+{% endblock %}

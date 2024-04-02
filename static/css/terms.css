@@ -1,0 +1,25 @@
+#terms-heading{
+    margin-top: 35px;
+    font-size: 41px;
+    color: #091650;
+
+}
+#terms-head{
+    margin-top: 10px;
+    color: #091650; 
+}
+.teli{
+    margin-top: 12px;
+}
+.teli span{
+    color: #5679b3;
+}
+.teli a{
+    color: #5679b3;
+}
+.tab a{
+    color: #5679b3;
+}
+ol li{
+    margin-top: 10px;
+}

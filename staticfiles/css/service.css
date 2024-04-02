@@ -1,0 +1,128 @@
+
+.service{
+    color: #1a2c7c;
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration:underline;
+    /* text-decoration-color: #1a2c7c; */
+    
+}
+@media (max-width: 768px) {
+    .service{
+        text-align: center;
+        font-size: 40px;
+    }
+    
+  }
+
+.service-card{
+    border: 1px solid #1a2c7c;
+}
+.service-card:hover{
+    background-color: #1a2c7c;
+    color: #fff;
+    border: 2px solid #0ad3ef;
+}
+.service-card:hover h5{
+    color: #fff;
+}
+
+.card-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.container {
+    position: relative;
+}
+  
+
+/* .......................button............................ */
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+  
+.bottnn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #2152a1;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    width: 204px;
+    text-align: center;
+}
+.bottnn:hover{
+    background-color: #091650;
+    border: 1px solid #1a2c7c;
+    color: #fff;
+}
+
+
+/* .......................for service page...........................  */
+.service-header{
+    text-align: center;
+}
+.service-header h5{
+    color: #fff;
+    font-size: 62px;
+    font-weight: 900;
+    padding-top: 75px;
+    padding-bottom: 10px;
+}
+.service-header p{
+    color:#c1cbf3 ;
+    font-size: 16px;
+    padding: 0 150px 30px 150px;
+}
+
+@media (max-width:768px){
+    .service-header p{
+        padding: 0 30px 30px 24px;
+    } 
+}
+@media (max-width:992px){
+    .service-header p{
+        padding: 0 20px 30px 17px;
+    } 
+}
+
+a{
+    color: #110b0b;
+}
+
+a strong{
+    color: #5679b3;
+}
+a:hover{
+    color: #091650;
+}
+a h4{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 58px;
+    margin-bottom: 16px;
+
+}
+a p{
+    font-size: 17px;
+}
+.col-heading{
+    color: #181010;
+}
+.col-para{
+    font-size: 17px;
+    /* color:#181010; */
+    /* padding: 0 15px; */
+}
+
+div ul li{
+    /* color: #181010; */
+    line-height: 32px;
+}
+
+
